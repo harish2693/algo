@@ -1,0 +1,16 @@
+
+v	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(Šê¡8‰ô¼´.
+U	java:S106$"9Replace this use of System.out or System.err by a logger.(ÈØõ8—Û‹½´.
+U	java:S106"9Replace this use of System.out or System.err by a logger.(Ÿñ‘Ô8èÛû¼´.
+U	java:S106'"9Replace this use of System.out or System.err by a logger.(¬¼“8—Û‹½´.
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(¥«ª­ûÿÿÿÿ8ÿ™‹½´.
+U	java:S106"9Replace this use of System.out or System.err by a logger.(Á­Öø8ÿ™‹½´.
+Z	java:S106&"9Replace this use of System.out or System.err by a logger.(³Î¾èûÿÿÿÿ8—Û‹½´.
+U	java:S106 "9Replace this use of System.out or System.err by a logger.(îİğ8ÿ™‹½´.
+Z	java:S106%"9Replace this use of System.out or System.err by a logger.(ßˆ”˜ûÿÿÿÿ8—Û‹½´.
+U	java:S106"9Replace this use of System.out or System.err by a logger.(×£õ€8ÿ™‹½´.
+T	java:S106""9Replace this use of System.out or System.err by a logger.(Õà’(8¿‰û¼´.
+U	java:S106#"9Replace this use of System.out or System.err by a logger.(à¹š8—Û‹½´.
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(ñ€¤Óøÿÿÿÿ8ÿ™‹½´.
+9
+java:S1643."Use a StringBuilder instead.( í°º8öÏ¬½´.

@@ -1,0 +1,26 @@
+
+]	java:S125"<This block of commented-out lines of code should be removed.(Ó¢Œýÿÿÿÿ8¼Â¾´.
+]	java:S125"<This block of commented-out lines of code should be removed.(Ó‰˜Ÿùÿÿÿÿ8¼Â¾´.
+]	java:S125"<This block of commented-out lines of code should be removed.(Ó¢Œýÿÿÿÿ8¼Â¾´.
+N
+java:S1481W",Remove this unused "param_1" local variable.(ÀÎõÇûÿÿÿÿ8ïú×¾´.
+m	java:S117X"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¦É“›8ïú×¾´.
+v
+java:S2293."YReplace the type specification in this constructor call with the diamond operator ("<>").(°¤Ëò8à«Õ¾´.
+]	java:S125"<This block of commented-out lines of code should be removed.(ŽãÍîùÿÿÿÿ8¼Â¾´.
+]	java:S125	"<This block of commented-out lines of code should be removed.(†·àÍþÿÿÿÿ8¼Â¾´.
+]
+java:S1854W";Remove this useless assignment to local variable "param_1".(ÀÎõÇûÿÿÿÿ8ïú×¾´.
+]	java:S125"<This block of commented-out lines of code should be removed.(´¡ÐØùÿÿÿÿ8¼Â¾´.
+r	java:S117W"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÀÎõÇûÿÿÿÿ8ïú×¾´.
+F
+java:S2140O")Use "java.util.Random.nextInt()" instead.(ÉÊÉä8à«Õ¾´.
+]	java:S125"<This block of commented-out lines of code should be removed.(¡±ú€ùÿÿÿÿ8¼Â¾´.
+I
+java:S1481X",Remove this unused "param_2" local variable.(¦É“›8ïú×¾´.
+{
+java:S2293/"YReplace the type specification in this constructor call with the diamond operator ("<>").(ÂÞúˆøÿÿÿÿ8à«Õ¾´.
+]	java:S125"<This block of commented-out lines of code should be removed.(Ó‰˜Ÿùÿÿÿÿ8¼Â¾´.
+X
+java:S1854X";Remove this useless assignment to local variable "param_2".(¦É“›8ïú×¾´.
+W	java:S125Y"<This block of commented-out lines of code should be removed.(ýØÐ@8éÇÚ¾´.
