@@ -77,6 +77,15 @@ class ListNode {
 
     @Override
     public String toString() {
-        return val + " -> " + next.val + " -> " + next.next.val;
+        StringBuilder stringBuilder = new StringBuilder();
+        ListNode root = this;
+        while (root != null) {
+            stringBuilder.append(root.val);
+            if (root.next != null) {
+                stringBuilder.append(" -> ");
+            }
+            root = root.next;
+        }
+        return stringBuilder.toString();
     }
 }
