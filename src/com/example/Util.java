@@ -1,5 +1,7 @@
 package com.example;
 
+import java.util.LinkedHashSet;
+
 public class Util {
 
     private static final int[] sortedData = {2, 10, 15, 17, 20, 29, 54};
@@ -15,6 +17,8 @@ public class Util {
     }
 
     public static void swap(int[] input, int i, int j) {
+        LinkedHashSet<String> a = new LinkedHashSet<>();
+        a.add("Hello");
         int temp = input[i];
         input[i] = input[j];
         input[j] = temp;

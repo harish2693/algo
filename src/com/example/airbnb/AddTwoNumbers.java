@@ -22,7 +22,7 @@
  *   807
  */
 
-package com.example.amazon;
+package com.example.airbnb;
 
 public class AddTwoNumbers {
 
