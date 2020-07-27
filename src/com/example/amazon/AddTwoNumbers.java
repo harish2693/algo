@@ -22,6 +22,9 @@
  *   807
  */
 
+// time complexity: O(n)
+// space complexity: O(n) result linked list
+
 package com.example.amazon;
 
 public class AddTwoNumbers {

@@ -12,6 +12,7 @@
 package com.example.amazon;
 
 import java.util.HashMap;
+import java.util.Map;
 
 public class FirstUniqueCharacterInAString {
 
@@ -22,7 +23,7 @@ public class FirstUniqueCharacterInAString {
     }
 
     private static int getIndex(String input) {
-        HashMap<Character, Integer> characters = new HashMap<>();
+        Map<Character, Integer> characters = new HashMap<>();
 
         for (int i = 0; i < input.length(); i++) {
             char current = input.charAt(i);

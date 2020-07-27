@@ -14,6 +14,8 @@
 
 // In this case, no transaction is done, i.e. max profit = 0.
 
+// time complexity: O(n)
+// space complexity: O(1)
 package com.example.amazon;
 
 public class BestTimeToBuyAndSellStock {

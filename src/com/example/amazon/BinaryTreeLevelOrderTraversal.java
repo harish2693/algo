@@ -17,10 +17,10 @@
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
- *     int val;
- *     TreeNode left;
- *     TreeNode right;
- *     TreeNode(int x) { val = x; }
+ * int val;
+ * TreeNode left;
+ * TreeNode right;
+ * TreeNode(int x) { val = x; }
  * }
  */
 
@@ -36,9 +36,11 @@ public class BinaryTreeLevelOrderTraversal {
     public static void main(String[] args) {
         TreeNode root = getRoot();
 
+        System.out.println(alternative(root));
+
         List<List<Integer>> result = new ArrayList<>();
 
-        if(root != null) {
+        if (root != null) {
             Queue<TreeNode> queue = new LinkedList<>();
             queue.add(root);
 
@@ -69,6 +71,24 @@ public class BinaryTreeLevelOrderTraversal {
 
     }
 
+    public static List<List<Integer>> alternative(TreeNode node) {
+        Queue<TreeNode> queue = new LinkedList<>();
+        List<List<Integer>> result = new ArrayList<>();
+        queue.add(node);
+        while (!queue.isEmpty()) {
+            List<Integer> currentResult = new ArrayList<>();
+            TreeNode tempNode = queue.poll();
+            currentResult.add(tempNode.val);
+            if (tempNode.left != null)
+                queue.add(tempNode.left);
+            if (tempNode.right != null)
+                queue.add(tempNode.right);
+
+            result.add(currentResult);
+        }
+        return result;
+    }
+
     public static TreeNode getRoot() {
         TreeNode root = new TreeNode(3);
         TreeNode al = new TreeNode(9);
@@ -89,6 +109,7 @@ class TreeNode {
     int val;
     TreeNode left;
     TreeNode right;
+
     TreeNode(int x) {
         val = x;
     }
